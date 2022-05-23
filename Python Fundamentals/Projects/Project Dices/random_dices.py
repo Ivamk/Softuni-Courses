@@ -10,8 +10,8 @@ while True:
     print(f"Резултатът от хвърлянето на зарове е: {computer_bet}")
 
     if your_bet == computer_bet:
-        budget += 20
-        print("Поздравления, ти спечели 20 лева")
+        budget += 50
+        print("Поздравления, ти спечели 50 лева")
 
     else:
         budget -= 10
