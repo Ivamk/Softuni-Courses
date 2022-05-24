@@ -20,12 +20,12 @@ while True:
     if budget > 0:
         print(f"Твоят бюджет е: {budget}")
         print("Искаш ли да продължиш?")
-        answer = input("Въведи Да/Не: ")
+        answer = input("Въведи Да/Не: ").lower()
         print()
-        if answer == "Да":
+        if answer == "да":
             your_bet = int(input("Въведи твоето предположение - число между 2 и 12: "))
             continue
-        elif answer == "Не":
+        elif answer == "не":
             print("Заповядай отново!")
             break
     else:
